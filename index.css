@@ -170,8 +170,11 @@ body {
 footer {
   display: flex;
   justify-content: center;
-  padding: 2em 0;
+  padding: 2em 0; /* top/bottom right/left */
   background-color: teal;
   font-size: 24px;
   font-family: "Impact", "Courier New", monospace;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
